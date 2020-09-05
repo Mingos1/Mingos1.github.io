@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #030306;
+}
+
+.footer,
+.header,
+.main,
+.section {
+    padding: 1.8em;
+    margin: .2em;
+    margin: 0 auto;
+    max-width: 35em;
+
+}
+
+.header {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.footer {
+   display: flex;
+   justify-content: center;
+}
+
+.emphasis {
+    font-weight: 700;
+    text-transform: uppercase;    
+}
+
+.links-section {
+    margin: 1em 0;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.section-links {
+    margin: 2em 0;
+}
+
+.main-section {
+    margin: 2em 0;
+}
+
+.section-header{
+    margin: 20px 0 10px 0;
+}
+
+.section-content-header {
+    margin: 0 0 10px 0;
+} 
+.section-header-about {
+    margin: 60px 0 0 0;
+
+}
+.section-content-about {
+    margin: 15px 0 55px 0;
+}
+
+.section-content-logos {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+.tech {
+    margin: 1.1em;
+}
+
+.tech a {
+    text-decoration: none;
+    font-size: 2.5em;
+    color: #030306;
+}
+
+h1 {
+    font-size: 2.3em;
+}
+
+h2 {
+    font-weight: 900;
+    font-size: 1.5em;
+}
+
+h3 {
+    font-weight: 700;
+    font-size: 1em;
+}
+
+label,
+textarea {
+    display: block;
+    border: none;
+    margin: .4em 0;
+    font-family: Jua;
+    font-size: 1.2em;
+    background: 0 0;
+}
+
+label {
+    margin-top: 2em;
+}
+
+input,
+textarea {
+    border-bottom: .1em solid #030306;
+    width: 100%;
+}
+
