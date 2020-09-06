@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+:root { 
+    --black: #030306;
+}
+
+
 * {
     margin: 0;
     padding: 0;
@@ -7,18 +12,16 @@
 
 body {
     font-family: 'Open Sans', sans-serif;
-    color: #030306;
+    color: var(--black) ;
 }
 
 .footer,
 .header,
 .main,
 .section {
-    padding: 1.8em;
-    margin: .2em;
+    padding: 35px;
     margin: 0 auto;
-    max-width: 35em;
-
+    max-width: 550px;
 }
 
 .content {
@@ -37,42 +40,47 @@ body {
 
 .emphasis {
     font-weight: 700;
-    text-transform: uppercase;    
+    text-transform: uppercase;  
 }
 
 .links-section {
-    margin: 1em 0;
+    margin: 20px 0;
     display: flex;
     flex-flow: row wrap;
 }
-
+/*
 .links-section {
     display: flex;
     flex-flow: row;
-    margin: 20px 0;
-}
+    border: 2px solid var(--black);
+}*/
+
 
 .links-section a {
-    margin: 0 2em 0 0;
+    margin: 0 20px 0 0;
 }
 
 .main-section {
-    margin: 2em 0;
+    margin: 20px 0;
 }
 
 .section-header{
-    margin: 20px 0 10px 0;
+    margin: 20px 0 20px 0;
 }
 
+/*
 .section-content-header {
-    margin: 0 0 10px 0;
+    border: 2px solid var(--black);
 } 
+*/
 .section-header-about {
     margin: 60px 0 0 0;
 
 }
+
 .section-content-about {
-    margin: 15px 0 55px 0;
+    margin: 10px 0 40px 0;
+
 }
 
 .section-content-logos {
@@ -86,13 +94,21 @@ body {
     margin: 1.1em;
 }
 
-.tech a {
+.tech i {
     text-decoration: none;
     font-size: 2.5em;
 }
 
+a {
+    color: var(--black);
+}
+
+a:hover {
+    text-decoration: none;
+}
+
 h1 {
-    font-size: 2.3em;
+    font-size: 2.5em;
 }
 
 h2 {
@@ -103,10 +119,6 @@ h2 {
 h3 {
     font-weight: 700;
     font-size: 1em;
-}
-
-a {
-    color: #030306;
 }
 
 label,
@@ -125,7 +137,7 @@ label {
 
 input,
 textarea {
-    border-bottom: .1em solid #030306;
+    border-bottom: .1em solid var(--black);
     width: 100%;
 }
 
