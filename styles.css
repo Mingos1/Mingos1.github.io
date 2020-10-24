@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
-:root { 
+
+:root {
     --black: #030306;
 }
 
@@ -12,7 +13,7 @@
 
 body {
     font-family: 'Open Sans', sans-serif;
-    color: var(--black) ;
+    color: var(--black);
 }
 
 .footer,
@@ -34,13 +35,13 @@ body {
 }
 
 .footer {
-   display: flex;
-   justify-content: center;
+    display: flex;
+    justify-content: center;
 }
 
 .emphasis {
     font-weight: 700;
-    text-transform: uppercase;  
+    text-transform: uppercase;
 }
 
 .links-section {
@@ -48,6 +49,7 @@ body {
     display: flex;
     flex-flow: row wrap;
 }
+
 /*
 .links-section {
     display: flex;
@@ -64,7 +66,7 @@ body {
     margin: 5vh 0;
 }
 
-.section-header{
+.section-header {
     margin: 80px 0 30px 0;
 }
 
@@ -145,4 +147,3 @@ textarea {
     border-bottom: .1em solid var(--black);
     width: 100%;
 }
-
