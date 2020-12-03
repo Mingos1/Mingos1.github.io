@@ -1,53 +1,53 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
 
 :root {
-    --black: #030306;
+  --black: #030306;
+  font-size: 18px;
 }
 
-
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: 'Open Sans', sans-serif;
-    color: var(--black);
+  font-family: "Open Sans", sans-serif;
+  color: var(--black);
 }
 
 .footer,
 .header,
 .main,
 .section {
-    padding: 35px;
-    margin: 0 auto;
-    max-width: 580px;
+  padding: 35px;
+  margin: 0 auto;
+  max-width: 580px;
 }
 
 .content {
-    margin: 10px 0;
+  margin: 10px 0;
 }
 
 .header {
-    display: flex;
-    justify-content: flex-end;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .footer {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .emphasis {
-    font-weight: 700;
-    text-transform: uppercase;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 
 .links-section {
-    margin: 20px 0;
-    display: flex;
-    flex-flow: row wrap;
+  margin: 20px 0;
+  display: flex;
+  flex-flow: row wrap;
 }
 
 /*
@@ -57,17 +57,16 @@ body {
     border: 2px solid var(--black);
 }*/
 
-
 .links-section a {
-    margin: 0 20px 0 0;
+  margin: 0 20px 0 0;
 }
 
 .main-section {
-    margin: 5vh 0;
+  margin: 5vh 0;
 }
 
 .section-header {
-    margin: 80px 0 30px 0;
+  margin: 80px 0 30px 0;
 }
 
 /*
@@ -76,74 +75,80 @@ body {
 } 
 */
 .section-header-about {
-    margin: 60px 0 0 0;
-
+  margin: 60px 0 0 0;
 }
 
 .section-content-about {
-    margin: 10px 0 18vh 0;
-
+  margin: 10px 0 18vh 0;
 }
 
 .section-content-projects {
-    margin: 10px 0 3.5em 0;
-
+  margin: 10px 0 3.5em 0;
 }
 
 .section-content-logos {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    text-align: center;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  text-align: center;
 }
 
 .tech {
-    margin: 1.2em 1.3em;
+  margin: 1.2em 1.3em;
 }
 
 .tech i {
-    text-decoration: none;
-    font-size: 2.5em;
+  text-decoration: none;
+  font-size: 2.5em;
 }
 
 a {
-    color: var(--black);
+  color: var(--black);
 }
 
 a:hover {
-    text-decoration: none;
+  text-decoration: none;
+}
+
+p {
+  line-height: 30px;
 }
 
 h1 {
-    font-size: 2.5em;
+  font-size: 2.5em;
 }
 
 h2 {
-    font-weight: 900;
-    font-size: 1.5em;
+  font-weight: 900;
+  font-size: 1.5em;
+  text-decoration: underline;
 }
 
 h3 {
-    font-weight: 700;
-    font-size: 1em;
+  font-weight: 700;
+  font-size: 1em;
+}
+
+nav > * {
+  margin: 0 11px;
 }
 
 label,
 textarea {
-    display: block;
-    border: none;
-    margin: .4em 0;
-    font-family: Jua;
-    font-size: 1.2em;
-    background: 0 0;
+  display: block;
+  border: none;
+  margin: 0.4em 0;
+  font-family: Jua;
+  font-size: 1.2em;
+  background: 0 0;
 }
 
 label {
-    margin-top: 2em;
+  margin-top: 2em;
 }
 
 input,
 textarea {
-    border-bottom: .1em solid var(--black);
-    width: 100%;
+  border-bottom: 0.1em solid var(--black);
+  width: 100%;
 }
